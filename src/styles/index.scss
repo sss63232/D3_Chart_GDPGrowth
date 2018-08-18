@@ -1,0 +1,29 @@
+svg {
+  color: white;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+svg path {
+  stroke: white;
+}
+
+html,
+body {
+  // display: flex;
+  // justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #222;
+  margin: 0;
+  overflow: hidden;
+}
+
+#chartTitle {
+  margin-top: 5vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
